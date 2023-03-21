@@ -26,12 +26,19 @@
 #  puts "Beetlejuice"
 # end
 
+# count = 0
+# 3.times do 
+#   count += 1
+#   puts "Beetlejuice"
+# end
+
+
 # until example:
 # count = 0
-#  until count > 2 do
-#     p "Beetlejuice"
-#     count += 1
-#   end
+# until count > 2 do
+#   p "Beetlejuice"
+#   count += 1
+# end
 
 # #while example: 
 # count = 0 
@@ -41,16 +48,16 @@
 # end
 
 # loop + while example:
-count = 0
-loop do
-  while count < 3
-    p "Beetlejuice"
-    count += 1
-  end
-  if count == 3
-    break
-  end
-end
+# count = 0
+# loop do
+#   while count < 3
+#     p "Beetlejuice"
+#     count += 1
+#   end
+#   if count == 3
+#     break
+#   end
+# end
 
 # #loop example:
 # count = 0
@@ -61,3 +68,18 @@ end
 #     break
 #   end
 # end
+
+
+# testing conditionals:
+# play_again = false
+# lives = 2
+# if lives == 0
+#   puts "You Lose!"
+# elsif !play_again
+#   puts "Game Over!"
+# elsif play_again && lives > 0
+#   puts "Welcome back!"
+# else
+#   puts "invalid input"
+# end
+
